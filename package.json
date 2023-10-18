@@ -1,0 +1,31 @@
+{
+  "name": "create-rodrigo-work",
+  "version": "1.0.1",
+  "description": "Clone and create CLI",
+  "main": "./bin/index.js",
+  "bin": {
+    "create-rodrigo-work": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "test",
+    "push": "git add . && git commit --amend -m \"Initial Commit\" &&  git push -u --force origin main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rodrigo3d/create-rodrigo-work.git"
+  },
+  "keywords": [
+    "create"
+  ],
+  "author": "Rodrigo Ribeiro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rodrigo3d/create-rodrigo-work/issues"
+  },
+  "preferGlobal": true,
+  "homepage": "https://github.com/rodrigo3d/create-rodrigo-work",
+  "dependencies": {
+    "unzip": "^0.1.11",
+    "yargs": "^17.7.2"
+  }
+}
