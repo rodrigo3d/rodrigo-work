@@ -1,7 +1,7 @@
 {
   "name": "create-rodrigo-work",
   "version": "1.0.1",
-  "description": "Clone and create CLI",
+  "description": "Clone and create apps to my repository CLI",
   "main": "./bin/index.js",
   "bin": {
     "create-rodrigo-work": "./bin/index.js"
